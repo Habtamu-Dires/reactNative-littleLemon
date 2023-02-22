@@ -7,7 +7,7 @@ export default function WelcomeScreen() {
     <ScrollView style={[
       styles.container,
       colorScheme === 'light'
-         ? {backgroundColor: 'white'}
+         ? {backgroundColor: '#333333'}
          : {backgroundColor: '#333333'}
       ]}>
       <View style={styles.headerWrapper}>
@@ -20,11 +20,11 @@ export default function WelcomeScreen() {
         />
 
         <Text style={[styles.headerText,
-          colorScheme === 'light' ? {color:'black'} : {color:'white'}
+          colorScheme === 'light' ? {color:'white'} : {color:'white'}
           ]}>Little Lemon</Text>
       </View>
       <Text style={[styles.regularText,
-          colorScheme === 'light' ? {color:'black'} : {color:'white'}
+          colorScheme === 'light' ? {color:'white'} : {color:'white'}
           ]}>
         Little Lemon is a charming neighborhood bistro that serves simple food
         and classic cocktails in a lively but casual environment. We would love
